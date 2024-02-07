@@ -1,0 +1,285 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*navbar css*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fdce16;
+    border-top: 2px solid #fdce16;
+    padding-top: 30px;
+}
+
+.navbar {
+    z-index: 2;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 3% 5%;
+    width: 100%;
+}
+
+.main_container {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+ul.navbar-nav.ml-auto {
+    margin: 0 auto;
+}
+
+a.nav-link {
+    font-family: monospace;
+    padding: 32px 0;
+    font-weight: bold;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+}
+
+li.nav-item {
+    padding: 0 35px;
+}
+
+.navbar-nav .nav-link {
+    display: inline-block;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+button.navbar-toggler {
+    padding: 0;
+}
+
+.navbar-toggler-icon{
+    background: gray;
+    border: 1px solid gray;
+}
+
+/*navbar css end*/
+
+/*section1 css start*/
+
+#sec1 {
+    background-image: url(../img/Photo.png);
+    background-size: 100% 100%;
+    padding: 20%;
+}
+
+#sec1 h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.5vw;
+    font-weight: bold;
+}
+
+#sec1 span {
+    color: #e59205;
+}
+
+#sec1 p {
+    text-align: center;
+    color: white;
+}
+
+#sec1 button {
+    height: 38px;
+    width: 120px;
+    font-family: fantasy;
+    color: white;
+    background: none;
+    border: 1px solid white;
+}
+
+/*section2 css start*/
+
+.cf {
+    text-align: center;
+    padding: 5% 0;
+    height: 250px;
+    width: 100%;
+}
+
+.cf h2 {
+    color: #6E7498;
+    display: inline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 3.5vw;
+    font-family: initial;
+}
+
+.cf p {
+    color: gray;
+}
+
+#sec2 .my-btn {
+    height: 130%;
+    width: 20%;
+    font-family: fantasy;
+    color: #6E7498;
+    background: none;
+    border: 1px solid #6E7498;
+    margin: auto;
+}
+
+#sec2 .my-btn:hover {
+    border: 1px solid #E59205;
+    background-color: #E59205;
+    color: white;
+}
+
+#sec2 {
+    width: 100%;
+}
+
+.s3_col2 {
+    padding: 3% 0;
+    text-align: center;
+}
+
+.s3_col2 .s3_btn {
+    padding: 3% 12%;
+    color: #6E7498;
+    border: .5px solid #6E7498;
+    background-color: white;
+    font-weight: 600;
+    margin-top: -2px;
+    font-family: fantasy;
+}
+
+.s3_col2 .s3_doller {
+    padding: 8% 0;
+}
+
+.s3_col2 .s3_p {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.s3_col2 .s3_pc {
+    color: #6E7498;
+    line-height: 35px;
+    font-family: sans-serif;
+    font-size: medium;
+}
+#sec2 img:hover{
+    transition: 3s;
+    transform: scale(1.5);
+    
+}
+
+/*section3 css start*/
+
+#sec3 .re{
+     padding: 0px !important;
+}
+
+/*section4 css start*/
+
+#sec4 {
+    background-image: url(../img/Layer%201.png);
+    background-size: 100% 100%;
+    padding: 5%;
+}
+
+#sec4 .gap {
+    padding: 4% 1%;
+    text-align: center;
+}
+
+#sec4 h2 {
+    text-align: center;
+    color: #777d9e;
+    font-size: 3.5vw;
+    font-weight: bold;
+    font-family: initial;
+}
+
+#sec4 p {
+    text-align: center;
+    color: gray;
+}
+
+#sec4 h4 {
+    text-align: center;
+    color: #777d9e;
+}
+
+#sec4 button {
+    height: 38px;
+    width: 120px;
+    font-family: fantasy;
+    color: #777d9e;
+    background: none;
+    border: 1px solid #777d9e;
+}
+
+/*section5 css start*/
+
+#sec5 {
+    background-image: url(../img/Photo2.png);
+    background-size: 100% 100%;
+    padding: 5%;
+}
+
+#sec5 h2 {
+    text-align: center;
+    color: white;
+    font-size: 3.2vw;
+    font-weight: bold;
+    font-family: initial;
+}
+
+.form-control {
+    height: 15%;
+    width: 35%;
+    font-family: fantasy;
+    border-radius: 0px;
+    border: 1px solid white;
+    background: none;
+}
+
+#sec5 input {
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+#sec5 button {
+    height: 38px;
+    width: 140px;
+    font-family: fantasy;
+    border-radius: 0px;
+    background-color: #e59205;
+    border: 1px solid #e59205;
+    text-align: center;
+    color: white;
+}
+
+/*footer css start*/
+
+footer {
+    padding: 1% 0;
+    width: 100%;
+}
+
+.fo .fo-p1 {
+    word-spacing: 5px;
+    margin-top: 5%;
+    text-align: center;
+    color: #6E7498;
+    font-size: 14px;
+}
+
+.fo .fo-p2 {
+    word-spacing: 20px;
+    margin-top: 5%;
+    text-align: center;
+    color: #6E7498;
+    font-size: 14px;
+}
