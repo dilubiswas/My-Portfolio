@@ -1,0 +1,339 @@
+/*prelodar css*/
+body {
+    overflow: hidden;
+}
+
+/* Preloader */
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    /* change if the mask should have another color then white */
+    z-index: 99;
+    /* makes sure it stays on top */
+}
+
+#status {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 50%;
+    /* centers the loading animation horizontally one the screen */
+    top: 50%;
+    /* centers the loading animation vertically one the screen */
+    background-image: url(../img/lo.gif);
+    /* path to your loading animation */
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: -100px 0 0 -100px;
+    /* is width and height divided by two */
+}
+
+/*action bar css*/
+.actionbar {
+    border-bottom: 1px solid #b9b9b9;
+    font-size: 13px;
+    color: #b9b9b9;
+}
+
+.b {
+    width: 30px;
+    border-right: 1px solid #b9b9b9;
+}
+
+.e a {
+    margin-left: 30%;
+}
+
+.b a {
+    margin-left: 30%;
+}
+
+.c {
+    border-right: 1px solid #b9b9b9;
+    text-align: right;
+}
+
+.vb {
+    border-right: 1px solid #b9b9b9;
+    text-align: left;
+}
+
+.w i {
+    color: #b9b9b9;
+}
+
+.fa-envelope {
+    color: #fdce16;
+}
+
+.fa-phone {
+    transform: rotate(90deg);
+    color: #fdce16;
+}
+
+/*Action Bar Ends*/
+.navbar-light .navbar-nav .nav-link {
+    color: black;
+}
+
+.nav-link {
+    padding: 32px 16px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fdce16;
+    border-top: 2px solid #fdce16;
+    padding-top: 30px;
+}
+
+.navbar {
+    padding: 0px 32px;
+}
+
+/*section 1 starts*/
+#s1 {
+    /*    background-image: url(../Img/slider-image.png);*/
+    background-size: 100% 100%;
+    padding: 5%;
+}
+
+.a {
+    margin-bottom: 25px;
+}
+
+#s1 hr {
+    border-color: white;
+}
+
+#s1 p {
+    color: white;
+    font-size: 13px;
+}
+
+.trans {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    height: 40px;
+    width: 120px;
+}
+
+.yellow {
+    height: 42px;
+    width: 120px;
+    background-color: #fdce16;
+    border: none;
+}
+
+/*section 2 start*/
+#s2 {
+    padding: 5% 10%;
+}
+
+.box {
+    height: 220px;
+    width: 80%;
+    border: 1px solid #b9b9b9;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box hr {
+    width: 50px;
+    margin: 5px auto;
+}
+
+.box p {
+    font-size: 12px;
+}
+
+.icon-box {
+    height: 50px;
+    width: 50px;
+    border: 1px solid #b9b9b9;
+    margin: auto;
+    transform: rotate(45deg);
+    background-color: white;
+    margin-top: -25px;
+}
+
+.icon-box:hover {
+    background-color: #fdce16;
+    border: 1px solid #fdce16;
+}
+
+.icon-box i {
+    margin: 17px;
+    transform: rotate(-45deg);
+}
+
+/*section3 css start*/
+#s3 {
+    background-image: url(../Img/bg1.png);
+    background-size: 100% 100%;
+    /*    padding: 5%;*/
+}
+
+/*section4 css*/
+#s4 {
+    background-image: url(../Img/bg.png);
+    background-size: 100% 100%;
+    padding: 5%;
+}
+
+#s4 h1 {
+    text-align: center;
+    color: #fdce16;
+}
+
+#s4 .carousel-item {
+    color: white;
+    padding: 2%;
+}
+
+#s4 .carousel-item p {
+    color: gray;
+}
+
+#s4 .carousel-item hr {
+    border-color: gray;
+}
+
+.textbox {
+    padding: 40px;
+}
+
+/*section5 css start*/
+#s5 h1 {
+    text-align: center;
+
+}
+
+#s5 h6 {
+    text-align: center;
+    color: gray;
+}
+
+#s5 {
+    padding: 5%;
+}
+
+#s5 .wh {
+    height: 60px;
+    background-color: white;
+}
+
+#s5 .wi {
+    text-align: center;
+}
+
+/*section6 css start*/
+#s6 {
+    background-image: url(../Img/bg2.png);
+    background-size: 100% 100%;
+    padding: 3%;
+}
+
+#s6 h1 {
+    text-align: center;
+}
+
+.progress-bar {
+    background-color: black;
+}
+
+.progress {
+    height: 50px;
+    border-radius: 20px;
+}
+
+.pe {
+    margin-left: 90%;
+}
+
+/*section7 css start*/
+#s7 {
+    background-image: url(../Img/bg3.png);
+    background-size: 100% 100%;
+    padding: 5% 10%;
+}
+
+#s7 .wh {
+    height: 60px;
+    background-color: white;
+}
+
+#s7 .wi {
+    text-align: center;
+    color: gray;
+}
+
+#s7 h1 {
+    text-align: center;
+}
+
+#s7 i {
+    color: black;
+}
+
+#s7 span {
+    color: gray;
+}
+
+#s7 span {
+    font-size: 12px;
+}
+
+.frm {
+    border: 1px solid #b9b9b9;
+    padding: 20px;
+}
+
+.sub {
+    float: right;
+    margin-bottom: -50px;
+    background-color: black;
+    width: 120px;
+
+}
+
+.sub:hover {
+    background-color: black;
+}
+
+footer {
+    padding: 10px;
+    background-color: #2e2e2e;
+}
+
+footer p {
+    color: gray;
+    margin-top: 15px;
+}
+
+footer img {
+    float: right;
+    margin-top: -30px;
+}
+
+/*media query starts*/
+@media only screen and(max-width:768) {
+    .line {
+        width: 100px;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .nav-link {
+        padding: 16px;
+    }
+
+    .navbar-light .navbar-nav .nav-link:hover {
+        padding-top: 14px;
+        width: 40%;
+    }
+}
