@@ -1,0 +1,453 @@
+body{
+    overflow-x: hidden;
+}
+/*section1 css starts*/
+#section1{
+    background-image: url(../img/blur-breakfast-close-up-376464.jpg);
+    padding: 10% 5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,.5);
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+.inside{
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.wel{
+    font-size: 3em;
+    font-style: italic;
+    line-height: .02;
+}
+.pato{
+    font-size: 5em;
+    line-height: .02;
+}
+.inside button{
+    color: red;
+    border-radius:10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: white;
+}
+.menubar li{
+    display: inline-block;
+}
+.menubar li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+}
+.menubar li a:hover{
+    background-color: blue;
+}
+.logo:hover{
+    background-color: transparent!important;
+}
+.logo{
+    margin-right: 350px;
+    font-size: 2em;
+}
+.menubar{
+    background-color: rgba(0,0,0,.6);
+    padding: 10px;
+    position: fixed;
+    width: 97.6%;
+    z-index: 1;
+}
+/*section2 css starts*/
+#section2{
+    height: 500px;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+.write{
+    height: 300px;
+    width: 800px;
+    float: left;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.ir{
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 18px;
+}
+.write h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.lorem{
+     text-align: center; 
+}
+.os{
+    text-align: center;
+}
+.pic{
+    height: 500px;
+    width: 600px;
+    float: right;
+}
+.pic img{
+    margin-left: 100px;
+    margin-top: 75px;
+    height: 350px;
+    width: 400px;
+    border-radius: 8px;
+}
+/*section3 css start*/
+#section3{
+    height: 100%;
+    width: 100%;
+    padding-top: 4%;
+    padding-left: 5.5%;
+    
+}
+.gal{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin: 0px 20px;
+}
+.gal img{
+    height: 300px;
+    width: 400px;
+}
+/*section4 css start*/
+#section4{
+    height: 550px;
+    width: 100%;
+    background-color: #DCDCDC;
+}
+.box{
+    height: 450px;
+    width: 775px;
+    float: left;
+    margin-top: 75px;
+    margin-left: 75px;
+}
+.bed{
+    height: 550px;
+    width: 600px;
+    float: right;
+}
+.bed img{
+    margin-left: 100px;
+    margin-top: 75px;
+    height: 350px;
+    width: 400px;
+    border-radius: 8px;
+}
+.box h1{
+    text-align: center;
+    font-family: sans-serif;
+}
+.a{
+    height: 255px;
+    width: 350px;
+    margin-left: 37.5px;
+    float: left;
+}
+.c{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(255,255,255);
+    border: 1.5px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.d{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(255,255,255);
+    border: 1.5px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.e{
+    height: 30px;
+    width: 300px;
+    background-color: rgb(255,255,255);
+    border: 1.5px solid #DCDCDC;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 17px;
+}
+.b{
+     height: 255px;
+    width: 350px;
+    margin-left: 37.5px;
+    float: right;
+}
+.f{
+    height: 75px;
+    width: 775px;
+    margin-top: 275px;
+}
+.g{
+    height: 40px;
+    width: 120px;
+    background-color: black;
+    color: white;
+    margin-left: 340px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+/*Gallery css start*/
+/*first css start*/
+#first{
+    background-image: url(../img/blur-breakfast-close-up-376464.jpg);
+    padding: 10% 5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#first h1{
+    text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+/*second css start*/
+#second{
+    height: 30px;
+    width: 700px;
+/*    background-color: aqua;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 400px;
+}
+#second button{
+    text-align: center;
+    margin-left: 50px;
+    float: left;
+}
+.ap{
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 1.5px solid black;
+}
+.in{
+    height: 30px;
+    border: none;
+    background-color: white; 
+}
+.in:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+/*third css start*/
+#third{
+    height: 100%;
+    width: 100%;
+    padding-left: 5.5%;
+}
+.gall{
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin: 20px 20px;
+}
+.gall img{
+    height: 370px;
+    width: 400px;
+    border-radius: 8px;
+}
+/*four css start*/
+#four{
+    height: 500px;
+    width: 100%;
+    background-color: #1A1C1A;      
+}
+.cu{
+    height: 360px;
+    width: 400px;
+    float: left;
+    margin-left: 75px;
+    margin-top: 70px; 
+}
+.cu h3{
+    color: white;
+    font-family: sans-serif;
+}
+.cu p{
+    color: gray;
+    font-family: sans-serif;
+}
+.lt{
+    height: 360px;
+    width: 400px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 75px;
+}
+.lt h3{
+    color: white;
+    font-family: sans-serif;
+}
+.lt .y{
+    color: red;
+    font-family: sans-serif;
+    background-color: #1A1C1A;
+}
+.lt .l{
+    color: white;
+}
+.lt .x{
+    color: gray;
+    font-family: sans-serif;
+}
+.gallery{
+    height: 360px;
+    width: 400px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 75px;
+}
+.gallery h3{
+    color: white;
+    font-family: sans-serif;
+}
+.z{
+    height: 90px;
+    width: 90px;
+    display: inline-block;
+    margin: 3px 3px;
+}
+.z img{
+    height: 90px;
+    width: 90px;
+}
+/*five css start*/
+#five{
+/*    height: 50px;*/
+    width: 96%;
+    padding: 30px;
+    background-color: black;
+}
+#five li{
+    display: inline-block;
+}
+#five li a{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: white;
+/*    margin-top: 50%;*/
+}
+#five li a:hover{
+    background-color: blue;
+}
+#five p{
+    color: gray;
+    float: right;
+    margin: auto;
+    margin-right: 90px;
+    font-family: sans-serif;
+}
+/*about css start*/
+/*sec1 css start*/
+#sec1{
+     background-image: url(../img/sea-sunset-beach-couple.jpg);
+    padding: 10% 5%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#sec1 h1{
+     text-align: center;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: white;
+}
+/*SEC2 CSS START*/
+#sec2{
+    height: 380px;
+    width: 100%;
+    background-color: #F4F2E9;
+    padding: 10px;
+}
+.ie{
+    text-align: center;
+    font-style: italic;
+    color: red;
+    font-size: 18px;
+    margin-top: 75px;
+}
+#sec2 h2{
+    text-align: center;
+    font-family: sans-serif;  
+}
+.ou{
+    height: 150px;
+    width: 1200px;
+    margin: auto;
+}
+.ou p{
+    text-align: center;
+    font-family: sans-serif;
+}
+/*SEC3 CSS START*/
+#sec3{
+    height: 500px;
+    width: 100%;
+    background-color: gray;
+}
+#sec3 iframe{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
